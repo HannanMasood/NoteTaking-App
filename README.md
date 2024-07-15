@@ -27,6 +27,8 @@ Features:
 5. Responsive design with a modern UI.
 
 Installation:
+
+
 To get started with the Note-Taking Application, follow these steps:
 Prerequisites
 1. Flutter SDK: Make sure you have Flutter installed. You can follow the official Flutter installation guide for setup instructions.
@@ -35,26 +37,37 @@ Prerequisites
 
 Clone the Repository:
 
+
 (Command)
 git clone https://github.com/yourusername/note-taking-application.git
 cd note-taking-application
 
 Install Dependencies:
+
+
 Navigate to the project directory and run:
+
 
 (Command)
 flutter pub get
 
 Set Up the Database:
+
+
 The application uses a SQLite database to store notes. No additional setup is required for the database as it is initialized automatically on first run.
 
 Run the Application:
+
+
 To run the application on an emulator or a physical device, use the following command:
+
 
 (Command)
 flutter run
 
 Usage:
+
+
 Here’s a guide on how to use the Note-Taking Application:
 Home Screen
 1. View Notes: The home screen displays a list of all your notes. Tap on a note to view or edit it.
@@ -66,6 +79,8 @@ Add/Edit Note Screen
 4. Delete: To delete a note, tap the "Delete" button on the edit screen and confirm your action in the dialog box.
 
 Project Structure:
+
+
 Here’s a brief overview of the project's structure:
 lib/
 1. database/--->DBHelper.dart        # Database helper functions
@@ -76,6 +91,8 @@ lib/
           ----->main.dart                # Main entry point of the app
 
 Contributing:
+
+
 We welcome contributions to improve the Note-Taking Application! If you have suggestions or would like to contribute, please follow these guidelines:
 1.	Fork the repository.
 2.	Create a new branch for your feature or bug fix.
@@ -84,9 +101,13 @@ We welcome contributions to improve the Note-Taking Application! If you have sug
 5.	Submit a pull request describing your changes and why they should be merged.
 
 Conclusion:
+
+
 Thank you for exploring the Note-Taking Application! We hope you find it useful for managing your notes and that it provides a smooth and enjoyable experience.
 
 Contact:
+
+
 For any questions or feedback, feel free to reach out:
 1. Author: Muhammad Hannan
 2. Email: hannanmasood536@gmail.com
