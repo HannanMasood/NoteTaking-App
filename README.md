@@ -62,17 +62,12 @@ Add/Edit Note Screen
 Project Structure:
 Here’s a brief overview of the project's structure:
 lib/
-1. database/
-│   ├── DBHelper.dart        # Database helper functions
-2. model/
-│   ├── db_model.dart        # Note model class
-3. pages/
-│   ├── home_page.dart       # Home screen showing the list of notes
-│   ├── add_note.dart        # Add/Edit Note screen
-│   ├── notes.dart           # Legacy Add/Edit Note screen 
-4. widget/
-│   ├── notelist.dart        # Note list widget
-├── main.dart                # Main entry point of the app
+1. database/--->DBHelper.dart        # Database helper functions
+2. model/------>db_model.dart        # Note model class
+3. pages/------>home_page.dart       # Home screen showing the list of notes
+         ------>add_note.dart        # Add/Edit Note screen
+4. widget/----->notelist.dart        # Note list widget
+          ----->main.dart                # Main entry point of the app
 
 Contributing:
 We welcome contributions to improve the Note-Taking Application! If you have suggestions or would like to contribute, please follow these guidelines:
