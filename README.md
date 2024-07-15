@@ -5,26 +5,26 @@ Introduction:
 Welcome to the note taking app! This app is designed to help you manage your notes efficiently with a clean and user-friendly interface. It is built with Flutter and offers cross-platform support for both iOS and Android devices. This application allows you to easily create, update, delete and view your notes.
 
 Table of Contents
-•	Features
-•	Installation
-•	Usage
-•	Project Structure
-•	Contributing
-•	Conclusion
-•	Contact
+1. Features
+2. Installation
+3. Usage
+4. Project Structure
+5. Contributing
+6. Conclusion
+7. Contact
 
 Features:
-•	Create and manage notes with titles and content.
-•	View notes in a list format with color-coded backgrounds.
-•	Edit and update existing notes.
-•	Delete notes with a confirmation prompt.
-•	Responsive design with a modern UI.
+1. Create and manage notes with titles and content.
+2. View notes in a list format with color-coded backgrounds.
+3. Edit and update existing notes.
+4. Delete notes with a confirmation prompt.
+5. Responsive design with a modern UI.
 
 Installation:
 To get started with the Note-Taking Application, follow these steps:
 Prerequisites
-•	Flutter SDK: Make sure you have Flutter installed. You can follow the official Flutter installation guide for setup instructions.
-•	Dart SDK: Dart comes bundled with Flutter, so you don’t need to install it separately.
+1. Flutter SDK: Make sure you have Flutter installed. You can follow the official Flutter installation guide for setup instructions.
+2. Dart SDK: Dart comes bundled with Flutter, so you don’t need to install it separately.
 
 
 Clone the Repository:
@@ -41,7 +41,8 @@ flutter pub get
 
 Set Up the Database:
 The application uses a SQLite database to store notes. No additional setup is required for the database as it is initialized automatically on first run.
-Run the Application
+
+Run the Application:
 To run the application on an emulator or a physical device, use the following command:
 
 (Command)
@@ -50,26 +51,26 @@ flutter run
 Usage:
 Here’s a guide on how to use the Note-Taking Application:
 Home Screen
-•	View Notes: The home screen displays a list of all your notes. Tap on a note to view or edit it.
-•	Add Note: Tap the "Add Note" button (with the "+" icon) to create a new note.
+1. View Notes: The home screen displays a list of all your notes. Tap on a note to view or edit it.
+2. Add Note: Tap the "Add Note" button (with the "+" icon) to create a new note.
 Add/Edit Note Screen
-•	Title Field: Enter the title of your note.
-•	Content Field: Enter the content of your note. This field supports multi-line input.
-•	Save: To save a new note or update an existing note, tap the "Add" or "Update" button.
-•	Delete: To delete a note, tap the "Delete" button on the edit screen and confirm your action in the dialog box.
+1. Title Field: Enter the title of your note.
+2. Content Field: Enter the content of your note. This field supports multi-line input.
+3. Save: To save a new note or update an existing note, tap the "Add" or "Update" button.
+4. Delete: To delete a note, tap the "Delete" button on the edit screen and confirm your action in the dialog box.
 
 Project Structure:
 Here’s a brief overview of the project's structure:
 lib/
-├── database/
+1. database/
 │   ├── DBHelper.dart        # Database helper functions
-├── model/
+2. model/
 │   ├── db_model.dart        # Note model class
-├── pages/
+3. pages/
 │   ├── home_page.dart       # Home screen showing the list of notes
 │   ├── add_note.dart        # Add/Edit Note screen
 │   ├── notes.dart           # Legacy Add/Edit Note screen 
-├── widget/
+4. widget/
 │   ├── notelist.dart        # Note list widget
 ├── main.dart                # Main entry point of the app
 
