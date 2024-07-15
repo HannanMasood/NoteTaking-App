@@ -82,7 +82,7 @@ Thank you for exploring the Note-Taking Application! We hope you find it useful 
 
 Contact:
 For any questions or feedback, feel free to reach out:
-•	Author: Muhammad Hannan
-•	Email: hannanmasood536@gmail.com
-•	GitHub: https://github.com/HannanMasood/NoteTaking-App.git
+1. Author: Muhammad Hannan
+2. Email: hannanmasood536@gmail.com
+3. GitHub: https://github.com/HannanMasood/NoteTaking-App.git
 
