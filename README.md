@@ -1,5 +1,7 @@
 # NoteTaking-App
 Q5) Flutter Simple Note-Taking Application
+
+
 Note-Taking Application
 Introduction:
 Welcome to the note taking app! This app is designed to help you manage your notes efficiently with a clean and user-friendly interface. It is built with Flutter and offers cross-platform support for both iOS and Android devices. This application allows you to easily create, update, delete and view your notes.
