@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:myapp/page1.dart';
+import 'package:myapp/first.dart';
+import 'package:myapp/h.dart';
+import 'package:myapp/home.dart';
+import 'package:myapp/m.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -11,8 +15,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(debugShowCheckedModeBanner: false,
-      home: Page1(
-      ),
+
+      home:First()
     );
   }
 }
